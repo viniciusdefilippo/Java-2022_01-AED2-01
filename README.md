@@ -13,5 +13,6 @@
 ```
 ---
 3) Faça um programa que leia um vetor com 5 elementos inteiros. Solicite ao usuário que informe um novo número, e verifique se este número encontra-se no vetor. Caso positivo, imprima a(s) posição(ões) em que este número estiver no vetor. Caso contrário, exiba uma mensagem ao usuário informando que o número não se encontra no vetor.
-
+---
+4) Faça um programa que solicite ao usuário que informe inicialmente os 6 números sorteados na Mega Sena. Em seguida, peça que ele digite os 6 números do cartão que jogou. Imprima a quantidade de pontos que ele fez no concurso.
 
