@@ -12,6 +12,6 @@
 5 x 10 = 50 
 ```
 ---
-
+3) Faça um programa que leia um vetor com 5 elementos inteiros. Solicite ao usuário que informe um novo número, e verifique se este número encontra-se no vetor. Caso positivo, imprima a(s) posição(ões) em que este número estiver no vetor. Caso contrário, exiba uma mensagem ao usuário informando que o número não se encontra no vetor.
 
 
