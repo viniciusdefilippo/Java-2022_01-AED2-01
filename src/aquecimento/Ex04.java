@@ -1,3 +1,5 @@
+package aquecimento;
+
 import java.util.Scanner;
 
 public class Ex04 {
