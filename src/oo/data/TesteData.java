@@ -12,13 +12,13 @@ public class TesteData {
         Data d3 = new Data(9, 3);
         System.out.println(d3.toString());
 
-        Data d4 = new Data(9,3,2022);
+        Data d4 = new Data(19,12,2022);
         System.out.println(d4.toString());
 
         Data d5 = new Data();
         d5.setDia(40);
-        d5.setMes(14);
-        d5.setAno(-1500);
+        d5.setMes(-14);
+        d5.setAno(150000);
 
         System.out.println(d5.toString());
     }

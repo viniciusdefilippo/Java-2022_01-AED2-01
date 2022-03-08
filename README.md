@@ -26,8 +26,9 @@
 
 ### Package data
 
-- Criar a classe **Data.java** para armazenar internamente Dia, Mês e Ano
-- Não permita atribuição direta de valores para anos. Só aceitar valores positivos acima do ano 1900
+Criar a classe **Data.java** para armazenar internamente Dia, Mês e Ano
+
+- Não permita atribuição direta de valores para anos. Só aceitar valores positivos acima do ano 1900 e abaixo de 9999
 - Não permita atribuição direta de valores para meses. Só aceite valores positivos entre 1 e 12
 - Não permita atribuição direta de valores para dias. Só aceita valores positivos entre 1 e 31.
 - Implementar um método set e um get para cada atributo
@@ -40,3 +41,17 @@ Criar 4 construtores:
 - Criar um método que retorne uma string contendo uma data no formato dia/mês/ano
 
 Finalmente criar uma classe **TesteData.java** para realizar os respectivos testes na classe **Teste.java**
+
+### Package time
+
+Criar a classe Time para armazenar internamente Hora, Minutos e Segundos.
+
+- Não permita atribuição direta e só aceitar valores válidos (0-23 ou 0-59)
+- Implementar um método set e um get para cada atributo
+
+Criar 4 construtores:
+- Sem nenhuma informação passada (o time padrão será 0:0:0)
+- Passando somente a hora inicial (o time padrão será hora:0:0)
+- Passando somente a hora e minutos iniciais (o time padrão será hora:minutos:0)
+- Passando a hora, minutos e segundos iniciais (o time padrão será hora:minutos:segundos)
+- Criar um método que retorne uma string contendo uma hora no formato h:m:s

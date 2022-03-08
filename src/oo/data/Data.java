@@ -51,11 +51,23 @@ public class Data {
     }
 
     public void setAno(int ano) {
-        if (ano > 0) ano = ano;
+        if ((ano > 0) && (ano < 9999)) ano = ano;
         else this.ano = 1900;
     }
 
-    public String toString(){
-        return dia + "/" + mes + "/" + ano;
+    public String toString() {
+        String d = convertIntToString(dia);
+        String m = convertIntToString(mes);
+        if (d.length() == 1) {
+            d = "0" + d;
+        }
+        if (m.length() == 1) {
+            m = "0" + m;
+        }
+        return d + "/" + m + "/" + ano;
+    }
+
+    private String convertIntToString(int num) {
+        return Integer.toString(num);
     }
 }
