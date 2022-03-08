@@ -1,4 +1,4 @@
-# Exercícios Revisão
+# Revisão
 ## Aquecimento 
 
 ---
@@ -17,3 +17,26 @@
 ---
 4) Faça um programa que solicite ao usuário que informe inicialmente os 6 números sorteados na Mega Sena. Em seguida, peça que ele digite os 6 números do cartão que jogou. Imprima a quantidade de pontos que ele fez no concurso.
 
+## Orientação a Objetos
+
+### Package retangulo
+- Criar uma classe **RetanguloEstruturada.java** para calcular e apresentar a área e o perímetro de um retângulo
+- A partir do mesmo problema, criar a Classe **Retângulo.java** utilizando o paradigma da orientação a objetos.
+- Criar a classe **TesteRetângulo.java** para testar a classe Retangulo.
+
+### Package data
+
+- Criar a classe **Data.java** para armazenar internamente Dia, Mês e Ano
+- Não permita atribuição direta de valores para anos. Só aceitar valores positivos acima do ano 1900
+- Não permita atribuição direta de valores para meses. Só aceite valores positivos entre 1 e 12
+- Não permita atribuição direta de valores para dias. Só aceita valores positivos entre 1 e 31.
+- Implementar um método set e um get para cada atributo
+
+Criar 4 construtores:
+- Sem nenhuma informação passada (a data padrão será 1/1/1900)
+- Passando somente o dia (a data padrão será data/1/1900)
+- Passando somente o dia e o mês (a data padrão será data/mes/1900)
+- Passando dia, mês e ano (a data padrão será data/mes/ano)
+- Criar um método que retorne uma string contendo uma data no formato dia/mês/ano
+
+Finalmente criar uma classe **TesteData.java** para realizar os respectivos testes na classe **Teste.java**
