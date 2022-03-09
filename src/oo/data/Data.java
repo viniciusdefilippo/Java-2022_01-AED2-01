@@ -23,9 +23,9 @@ public class Data {
     }
 
     public Data(int dia, int mes, int ano) {
-        this.dia = dia;
-        this.mes = mes;
-        this.ano = ano;
+        setDia(dia);
+        setMes(mes);
+        setAno(ano);
     }
 
     public int getDia() {
@@ -51,7 +51,7 @@ public class Data {
     }
 
     public void setAno(int ano) {
-        if ((ano > 0) && (ano < 9999)) ano = ano;
+        if ((ano >= 1900) && (ano < 9999)) ano = ano;
         else this.ano = 1900;
     }
 

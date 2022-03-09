@@ -54,4 +54,4 @@ Criar 4 construtores:
 - Passando somente a hora inicial (o time padrão será hora:0:0)
 - Passando somente a hora e minutos iniciais (o time padrão será hora:minutos:0)
 - Passando a hora, minutos e segundos iniciais (o time padrão será hora:minutos:segundos)
-- Criar um método que retorne uma string contendo uma hora no formato h:m:s
+- Criar um método que retorne uma string contendo uma hora no formato hh:mm:ss
