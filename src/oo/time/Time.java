@@ -19,7 +19,7 @@ public class Time {
     public Time(int hora, int minuto) {
         setHora(hora);
         setMinuto(minuto);
-        this.segundo = segundo;
+        this.segundo = 0;
     }
 
     public Time(int hora, int minuto, int segundo) {
@@ -33,7 +33,7 @@ public class Time {
     }
 
     public void setHora(int hora) {
-        if ((hora > 0) && (hora <= 23)) this.hora = hora;
+        if ((hora >= 0) && (hora < 24)) this.hora = hora;
         else this.hora = 0;
     }
 
@@ -42,7 +42,7 @@ public class Time {
     }
 
     public void setMinuto(int minuto) {
-        if ((minuto > 0) && (minuto <= 59)) this.minuto = minuto;
+        if ((minuto >= 0) && (minuto < 60)) this.minuto = minuto;
         else this.minuto = 0;
     }
 
@@ -51,7 +51,7 @@ public class Time {
     }
 
     public void setSegundo(int segundo) {
-        if ((segundo > 0) && (segundo <= 59)) this.segundo = segundo;
+        if ((segundo >= 0) && (segundo < 60)) this.segundo = segundo;
         else this.segundo = 0;
     }
 

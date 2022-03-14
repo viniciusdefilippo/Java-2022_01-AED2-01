@@ -14,7 +14,7 @@ public class TestTime {
         Time t3 = new Time(18, 35);
         System.out.println(t3);
 
-        Time t4 = new Time(18, 35, 58);
+        Time t4 = new Time(23, 59, 59);
         System.out.println(t4);
 
         Time t5 = new Time();
